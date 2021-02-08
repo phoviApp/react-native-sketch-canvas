@@ -4,7 +4,7 @@
     "type": "git",
     "url": "https://github.com/phoviApp/react-native-sketch-canvas"
   },
-  "version": "0.8.2",
+  "version": "0.8.3",
   "description": "react-native-screen-draw allows you to draw / sketch on both iOS and Android devices and sync the drawing data between users. Of course you can save as image.",
   "author": "Wenderson",
   "main": "index.js",
