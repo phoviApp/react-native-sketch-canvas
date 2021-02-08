@@ -59,6 +59,7 @@ export default class RNSketchCanvas extends React.Component {
 
     permissionDialogTitle: PropTypes.string,
     permissionDialogMessage: PropTypes.string,
+    askForPermission: PropTypes.bool,
   };
 
   static defaultProps = {
@@ -117,6 +118,7 @@ export default class RNSketchCanvas extends React.Component {
 
     permissionDialogTitle: '',
     permissionDialogMessage: '',
+    askForPermission: false
   };
 
 
@@ -195,6 +197,10 @@ export default class RNSketchCanvas extends React.Component {
   }
 
   async componentDidMount() {
+    if (!this.props.askForPermission){
+      return;
+    }
+
     const isStoragePermissionAuthorized = await requestPermissions(
       this.props.permissionDialogTitle,
       this.props.permissionDialogMessage,
