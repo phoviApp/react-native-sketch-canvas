@@ -1,16 +1,17 @@
 {
-  "name": "react-native-sketch-canvas",
+  "name": "react-native-screen-draw",
   "repository": {
     "type": "git",
     "url": "https://github.com/phoviApp/react-native-sketch-canvas"
   },
-  "version": "0.8.1",
-  "description": "react-native-sketch-canvas allows you to draw / sketch on both iOS and Android devices and sync the drawing data between users. Of course you can save as image.",
-  "author": "Terry Lin",
+  "version": "0.8.2",
+  "description": "react-native-screen-draw allows you to draw / sketch on both iOS and Android devices and sync the drawing data between users. Of course you can save as image.",
+  "author": "Wenderson",
   "main": "index.js",
   "keywords": [
     "react-native",
     "react-native-sketch",
+    "react-native-screen-draw",
     "react-native-svg",
     "react",
     "native",
